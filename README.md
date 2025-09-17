@@ -1,1 +1,242 @@
-# course-landing-page1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Step-by-step blueprint to build a profitable online course business and achieve $10k/month passive income.">
+    <title>The Ultimate Guide to Building a Profitable Online Course Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #f8f9fa; }
+        .hero { background: linear-gradient(to right, #007bff, #6f42c1); color: white; padding: 100px 0; text-align: center; }
+        .cta-button { background-color: #fd7e14; color: white; border: none; }
+        .countdown { font-size: 1.5em; margin-top: 20px; color: #fff; }
+        .bonus-card { border: 1px solid #ddd; border-radius: 10px; padding: 20px; margin-bottom: 20px; }
+        .bonus-card:nth-child(1) { background-color: #d4edda; } /* Light green */
+        .bonus-card:nth-child(2) { background-color: #d1ecf1; } /* Light blue */
+        .bonus-card:nth-child(3) { background-color: #f3e5f5; } /* Light purple */
+        footer { background-color: #343a40; color: white; padding: 20px 0; }
+        #benefits { background-color: #ffffff; }
+        #excerpts { background-color: #e9f7ff; } /* Very light blue */
+        #bonuses { background-color: #f8f9fa; }
+        #testimonials { background-color: #d1ecf1; color: #212529; } /* Light blue for calm */
+        #faq { background-color: #f8f9fa; }
+        #pricing { background-color: #e9f7ff; } /* Light blue */
+        .list-group-item { border-left: 4px solid #28a745; } /* Green accent for lists */
+    </style>
+    <!-- Google Analytics Placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-GA-ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR-GA-ID');
+    </script>
+    <!-- Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "The Ultimate Guide to Building a Profitable Online Course Business",
+      "author": "John Ushie A.",
+      "offers": {
+        "@type": "Offer",
+        "price": "27.00",
+        "priceCurrency": "USD",
+        "url": "https://selar.com/6a575dlt86"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-4">The Ultimate Guide to Building a Profitable Online Course Business</h1>
+            <p class="lead">Your step-by-step blueprint to millions: Turn your knowledge into $10,000/month passive income.</p>
+            <img src="ebook-cover.jpg" alt="EBook Cover Image" class="img-fluid mb-3" style="max-width: 400px;">
+            <a href="https://selar.com/6a575dlt86" class="btn cta-button btn-lg">Buy Now for $27</a>
+            <div class="countdown" id="timer"></div>
+        </div>
+    </header>
+
+    <section id="benefits" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What You'll Learn</h2>
+            <p>This isn't vague advice—it's a proven plan to transform your expertise into a thriving business. Based on real strategies that have helped creators like you hit $5k-$15k/month.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Find a profitable niche using tools like Google Trends and Reddit.</li>
+                        <li class="list-group-item">Validate ideas with pre-sales and landing page tests.</li>
+                        <li class="list-group-item">Design irresistible content with modules and engagement strategies.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Produce pro courses with affordable tools.</li>
+                        <li class="list-group-item">Launch with audience building and 30-day plans.</li>
+                        <li class="list-group-item">Scale with automation and upsells.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="excerpts" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Book Excerpts</h2>
+            <div class="accordion" id="excerptAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#excerpt1">From Introduction</button></h2>
+                    <div id="excerpt1" class="accordion-collapse collapse"><div class="accordion-body">Imagine sipping coffee while your course earns $10,000/month passively...</div></div>
+                </div>
+                <!-- Add more excerpts as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="bonuses" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Exclusive Bonuses</h2>
+            <div class="row">
+                <div class="col-md-4"><div class="bonus-card"><h5>Course Outline Template</h5><p>Downloadable PDF to map your course (QR code in book).</p></div></div>
+                <div class="col-md-4"><div class="bonus-card"><h5>Cheat Sheets & Checklists</h5><p>Launch Day To-Do List and more.</p></div></div>
+                <div class="col-md-4"><div class="bonus-card"><h5>Private Community Access</h5><p>Join a Facebook group for Q&A.</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Readers Are Saying</h2>
+            <div class="carousel slide" id="testCarousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><p class="text-center">"Hit $5k in month one!" - Sarah</p></div>
+                    <div class="carousel-item"><p class="text-center">"$23,500 from TikTok hacks." - Jake</p></div>
+                    <div class="carousel-item"><p class="text-center">"Scaled to $15k/month." - Maria</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Is this for beginners?</button></h2>
+                    <div id="faq1" class="accordion-collapse collapse"><div class="accordion-body">Yes, starts from niche discovery.</div></div>
+                </div>
+                <!-- Add more FAQs -->
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="text-center py-5">
+        <div class="container">
+            <h2>Get Your Copy Today</h2>
+            <p>For just $27, instant download via Selar. 100% Satisfaction Guarantee.</p>
+            <a href="https://selar.com/6a575dlt86" class="btn cta-button btn-lg">Buy Now</a>
+            <!-- Mailchimp Embed Example -->
+            <div class="mt-4">
+                <h4>Sign Up for Free Tips</h4>
+                <!-- Replace with your Mailchimp form code -->
+                <form action="YOUR_MAILCHIMP_URL" method="post">
+                    <input type="email" placeholder="Your Email" required class="form-control d-inline-block w-50">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup Quiz Modal -->
+    <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="quizModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="quizModalLabel">Quick Quiz: Are You Ready to Build a Profitable Online Course?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="quizForm">
+                        <div class="mb-3">
+                            <label>1. Have you discovered a profitable niche for your course?</label><br>
+                            <input type="radio" name="q1" value="3"> Yes, and it's validated with data.<br>
+                            <input type="radio" name="q1" value="2"> I have ideas, but need validation.<br>
+                            <input type="radio" name="q1" value="1"> No, I'm starting from scratch.
+                        </div>
+                        <div class="mb-3">
+                            <label>2. Do you know how to validate your course idea before creating it?</label><br>
+                            <input type="radio" name="q2" value="3"> Yes, using pre-sales or tests.<br>
+                            <input type="radio" name="q2" value="2"> Somewhat familiar.<br>
+                            <input type="radio" name="q2" value="1"> No idea where to start.
+                        </div>
+                        <div class="mb-3">
+                            <label>3. Have you planned irresistible content for your course?</label><br>
+                            <input type="radio" name="q3" value="3"> Yes, with modules and engagement.<br>
+                            <input type="radio" name="q3" value="2"> I have outlines, but need polish.<br>
+                            <input type="radio" name="q3" value="1"> Not yet.
+                        </div>
+                        <div class="mb-3">
+                            <label>4. Are you ready to launch and scale to $10k/month?</label><br>
+                            <input type="radio" name="q4" value="3"> Yes, with a plan in place.<br>
+                            <input type="radio" name="q4" value="2"> I need marketing strategies.<br>
+                            <input type="radio" name="q4" value="1"> Overwhelmed by the process.
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="submitQuiz()">Submit Quiz</button>
+                    </form>
+                    <div id="quizResult" class="mt-3" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center">
+        <p>&copy; 2025 John Ushie A. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Countdown Timer JS -->
+    <script>
+        function countdown() {
+            let countDownDate = new Date().getTime() + (48 * 60 * 60 * 1000); // 48 hours
+            let x = setInterval(function() {
+                let now = new Date().getTime();
+                let distance = countDownDate - now;
+                let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("timer").innerHTML = "Limited Offer Ends In: " + hours + "h " + minutes + "m " + seconds + "s ";
+                if (distance < 0) { clearInterval(x); document.getElementById("timer").innerHTML = "Offer Expired"; }
+            }, 1000);
+        }
+        countdown();
+
+        // Auto-show quiz modal after 5 seconds
+        setTimeout(function() {
+            new bootstrap.Modal(document.getElementById('quizModal')).show();
+        }, 5000);
+
+        // Quiz submission logic
+        function submitQuiz() {
+            let score = 0;
+            const form = document.getElementById('quizForm');
+            const radios = form.querySelectorAll('input[type="radio"]:checked');
+            radios.forEach(radio => { score += parseInt(radio.value); });
+
+            let message = '';
+            if (score >= 10) {
+                message = 'Great job! You\'re well on your way. Grab the guide to accelerate to $10k/month. <a href="https://selar.com/6a575dlt86">Buy Now</a>';
+            } else if (score >= 6) {
+                message = 'You have a solid start, but there\'s room to grow. This guide will help validate and scale your ideas.';
+            } else {
+                message = 'No worries—everyone starts somewhere! The guide provides a step-by-step blueprint to get you started.';
+            }
+
+            document.getElementById('quizResult').innerHTML = `<p>Your Score: ${score}/12</p><p>${message}</p>`;
+            document.getElementById('quizResult').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
